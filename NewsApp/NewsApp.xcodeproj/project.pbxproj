@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48FA3FA21EF8320F0017790F /* TopStoriesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FA3FA11EF8320F0017790F /* TopStoriesVC.m */; };
+		48FA3FA51EF832760017790F /* TopStoriesDetailVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FA3FA41EF832760017790F /* TopStoriesDetailVc.m */; };
+		48FA3FA81EF833E40017790F /* SelectFavoritesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FA3FA71EF833E40017790F /* SelectFavoritesVC.m */; };
+		48FA3FAB1EF834110017790F /* FavoritesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FA3FAA1EF834110017790F /* FavoritesVC.m */; };
+		48FA3FAE1EF8345D0017790F /* FavoritesDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FA3FAD1EF8345D0017790F /* FavoritesDetailVC.m */; };
+		48FA3FB11EF834E70017790F /* MapKitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FA3FB01EF834E70017790F /* MapKitVC.m */; };
+		48FA3FB41EF835320017790F /* CategoriesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FA3FB31EF835320017790F /* CategoriesVC.m */; };
+		48FA3FBA1EF836200017790F /* CategoriesDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FA3FB91EF836200017790F /* CategoriesDetailVC.m */; };
 		68B888D41EF826C90000CF45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B888D31EF826C90000CF45 /* main.m */; };
 		68B888D71EF826C90000CF45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B888D61EF826C90000CF45 /* AppDelegate.m */; };
 		68B888DA1EF826C90000CF45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B888D91EF826C90000CF45 /* ViewController.m */; };
@@ -17,6 +25,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48FA3FA01EF8320F0017790F /* TopStoriesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopStoriesVC.h; sourceTree = "<group>"; };
+		48FA3FA11EF8320F0017790F /* TopStoriesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopStoriesVC.m; sourceTree = "<group>"; };
+		48FA3FA31EF832760017790F /* TopStoriesDetailVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopStoriesDetailVc.h; sourceTree = "<group>"; };
+		48FA3FA41EF832760017790F /* TopStoriesDetailVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopStoriesDetailVc.m; sourceTree = "<group>"; };
+		48FA3FA61EF833E40017790F /* SelectFavoritesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectFavoritesVC.h; sourceTree = "<group>"; };
+		48FA3FA71EF833E40017790F /* SelectFavoritesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectFavoritesVC.m; sourceTree = "<group>"; };
+		48FA3FA91EF834110017790F /* FavoritesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesVC.h; sourceTree = "<group>"; };
+		48FA3FAA1EF834110017790F /* FavoritesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesVC.m; sourceTree = "<group>"; };
+		48FA3FAC1EF8345D0017790F /* FavoritesDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesDetailVC.h; sourceTree = "<group>"; };
+		48FA3FAD1EF8345D0017790F /* FavoritesDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesDetailVC.m; sourceTree = "<group>"; };
+		48FA3FAF1EF834E70017790F /* MapKitVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapKitVC.h; sourceTree = "<group>"; };
+		48FA3FB01EF834E70017790F /* MapKitVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapKitVC.m; sourceTree = "<group>"; };
+		48FA3FB21EF835320017790F /* CategoriesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesVC.h; sourceTree = "<group>"; };
+		48FA3FB31EF835320017790F /* CategoriesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesVC.m; sourceTree = "<group>"; };
+		48FA3FB81EF836200017790F /* CategoriesDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesDetailVC.h; sourceTree = "<group>"; };
+		48FA3FB91EF836200017790F /* CategoriesDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesDetailVC.m; sourceTree = "<group>"; };
 		68B888CF1EF826C90000CF45 /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B888D31EF826C90000CF45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		68B888D51EF826C90000CF45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,6 +94,22 @@
 				68B888E61EF826C90000CF45 /* Info.plist */,
 				68B888DE1EF826C90000CF45 /* NewsApp.xcdatamodeld */,
 				68B888D21EF826C90000CF45 /* Supporting Files */,
+				48FA3FA01EF8320F0017790F /* TopStoriesVC.h */,
+				48FA3FA11EF8320F0017790F /* TopStoriesVC.m */,
+				48FA3FA31EF832760017790F /* TopStoriesDetailVc.h */,
+				48FA3FA41EF832760017790F /* TopStoriesDetailVc.m */,
+				48FA3FA61EF833E40017790F /* SelectFavoritesVC.h */,
+				48FA3FA71EF833E40017790F /* SelectFavoritesVC.m */,
+				48FA3FA91EF834110017790F /* FavoritesVC.h */,
+				48FA3FAA1EF834110017790F /* FavoritesVC.m */,
+				48FA3FAC1EF8345D0017790F /* FavoritesDetailVC.h */,
+				48FA3FAD1EF8345D0017790F /* FavoritesDetailVC.m */,
+				48FA3FAF1EF834E70017790F /* MapKitVC.h */,
+				48FA3FB01EF834E70017790F /* MapKitVC.m */,
+				48FA3FB21EF835320017790F /* CategoriesVC.h */,
+				48FA3FB31EF835320017790F /* CategoriesVC.m */,
+				48FA3FB81EF836200017790F /* CategoriesDetailVC.h */,
+				48FA3FB91EF836200017790F /* CategoriesDetailVC.m */,
 			);
 			path = NewsApp;
 			sourceTree = "<group>";
@@ -153,10 +193,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48FA3FA21EF8320F0017790F /* TopStoriesVC.m in Sources */,
+				48FA3FBA1EF836200017790F /* CategoriesDetailVC.m in Sources */,
 				68B888DA1EF826C90000CF45 /* ViewController.m in Sources */,
 				68B888D71EF826C90000CF45 /* AppDelegate.m in Sources */,
+				48FA3FA51EF832760017790F /* TopStoriesDetailVc.m in Sources */,
+				48FA3FB11EF834E70017790F /* MapKitVC.m in Sources */,
+				48FA3FAB1EF834110017790F /* FavoritesVC.m in Sources */,
+				48FA3FA81EF833E40017790F /* SelectFavoritesVC.m in Sources */,
 				68B888E01EF826C90000CF45 /* NewsApp.xcdatamodeld in Sources */,
+				48FA3FAE1EF8345D0017790F /* FavoritesDetailVC.m in Sources */,
 				68B888D41EF826C90000CF45 /* main.m in Sources */,
+				48FA3FB41EF835320017790F /* CategoriesVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +359,7 @@
 				68B888EB1EF826C90000CF45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
