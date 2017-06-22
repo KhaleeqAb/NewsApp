@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TopStoriesVC : UITableViewController
+@interface TopStoriesVC : UITableViewController 
+
+@property (strong, nonatomic) IBOutlet UITableView *topStories;
 
 @end

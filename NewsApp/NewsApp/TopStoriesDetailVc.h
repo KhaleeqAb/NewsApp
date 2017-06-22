@@ -10,4 +10,6 @@
 
 @interface TopStoriesDetailVc : UIPageViewController
 
+@property (strong, nonatomic) NSString *msg;
+
 @end

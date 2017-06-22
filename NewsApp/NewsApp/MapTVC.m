@@ -1,44 +1,27 @@
 //
-//  TopStoriesVC.m
+//  MapTVC.m
 //  NewsApp
 //
-//  Created by rtuser on 6/19/17.
+//  Created by rtuser on 6/21/17.
 //  Copyright © 2017 rt_user. All rights reserved.
 //
 
-#import "TopStoriesVC.h"
-#import "TopStoriesDetailVc.h"
+#import "MapTVC.h"
 
-@interface TopStoriesVC () <UITableViewDataSource,UITableViewDelegate> {
-    
-    NSURL *url;
-    NSData *myData;
-    NSDictionary *dctnry;
-    NSDictionary *dctnry1;
-    NSString *urlString;
-    
-}
+@interface MapTVC () <UITableViewDelegate, UITableViewDataSource>
 
 @end
 
-@implementation TopStoriesVC
+@implementation MapTVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    urlString = [NSString stringWithFormat:@"https://newsapi.org/v1/articles?source=techcrunch&apiKey=2dadb6e29fd64552b835893728c77188"];
-    url = [NSURL URLWithString:urlString];
-    myData = [NSData dataWithContentsOfURL:url];
-    dctnry = [NSJSONSerialization JSONObjectWithData:myData options:0 error:nil];
-    //  NSLog(@"%@",dictnry);
-    dctnry1 = [dctnry objectForKey:@"articles"];
-    NSLog(@"%@",dctnry1);
 }
 
 - (void)didReceiveMemoryWarning {
@@ -49,49 +32,24 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 1;
-}
-
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 100;
+#warning Incomplete implementation, return the number of sections
+    return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return dctnry1.count;
+#warning Incomplete implementation, return the number of rows
+    return 0;
 }
 
-
+/*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"reuse" forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
     
-    //Configure the cell...
+    // Configure the cell...
     
-    
-    NSString *str = [[dctnry1 valueForKeyPath:@"urlToImage"]objectAtIndex:indexPath.row];
-    NSData *imageData = [NSData dataWithContentsOfURL:[NSURL URLWithString:str]];
-    
-    cell.imageView.image = [UIImage imageWithData:imageData];
-    CGSize itemSize = CGSizeMake(90, 90);
-    UIGraphicsBeginImageContextWithOptions(itemSize, NO, UIScreen.mainScreen.scale);
-    CGRect imageRect = CGRectMake(0.0, 0.0, itemSize.width, itemSize.height);
-    [cell.imageView.image drawInRect:imageRect];
-    cell.imageView.image = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    //[[cell imageView] setImage:[UIImage imageWithData:imageData]];
-    
-    
-    //cell.imageView.image = [[dctnry1 valueForKeyPath:@"urlToImage"] objectAtIndex:indexPath.row];
-
-    cell.textLabel.text = [[dctnry1 valueForKeyPath:@"title"]objectAtIndex:indexPath.row];
-    cell.textLabel.adjustsFontSizeToFitWidth = YES;
-    //cell.textLabel.font = [UIFont systemFontOfSize:12];
-    cell.textLabel.numberOfLines = 4;
-    cell.textLabel.lineBreakMode = NSLineBreakByWordWrapping;
-//    cell.textLabel.textAlignment=NSTextAlignmentRight;
-    cell.detailTextLabel.text = [[dctnry1 valueForKeyPath:@"author"]objectAtIndex:indexPath.row];
     return cell;
 }
-
+*/
 
 /*
 // Override to support conditional editing of the table view.
@@ -127,19 +85,14 @@
 }
 */
 
-
+/*
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
-     TopStoriesDetailVc *seg = (TopStoriesDetailVc *)segue.destinationViewController;
-    NSIndexPath *index = [self.tableView indexPathForSelectedRow];
-    seg.msg = [[dctnry1 valueForKeyPath:@"description"] objectAtIndex:index.row];
-    
-    
 }
-
+*/
 
 @end

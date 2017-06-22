@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2074C614FD3233161F8720D1 /* libPods-NewsApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFEBB0B105444DFCCA17DAC6 /* libPods-NewsApp.a */; };
 		48FA3FA21EF8320F0017790F /* TopStoriesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FA3FA11EF8320F0017790F /* TopStoriesVC.m */; };
 		48FA3FA51EF832760017790F /* TopStoriesDetailVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FA3FA41EF832760017790F /* TopStoriesDetailVc.m */; };
 		48FA3FA81EF833E40017790F /* SelectFavoritesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FA3FA71EF833E40017790F /* SelectFavoritesVC.m */; };
@@ -15,9 +16,15 @@
 		48FA3FB11EF834E70017790F /* MapKitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FA3FB01EF834E70017790F /* MapKitVC.m */; };
 		48FA3FB41EF835320017790F /* CategoriesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FA3FB31EF835320017790F /* CategoriesVC.m */; };
 		48FA3FBA1EF836200017790F /* CategoriesDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FA3FB91EF836200017790F /* CategoriesDetailVC.m */; };
+		48FA3FBD1EFABE8E0017790F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48FA3FBC1EFABE8E0017790F /* MapKit.framework */; };
+		48FA3FBF1EFABEA90017790F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48FA3FBE1EFABEA90017790F /* CoreLocation.framework */; };
+		48FA3FC21EFAC0680017790F /* MapAnnotations.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FA3FC11EFAC0680017790F /* MapAnnotations.m */; };
+		48FA3FCC1EFACE9F0017790F /* B6DytOLCUAAjquD.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FA3FCA1EFACE9F0017790F /* B6DytOLCUAAjquD.png */; };
+		48FA3FCD1EFACE9F0017790F /* white-house_318-27080.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48FA3FCB1EFACE9F0017790F /* white-house_318-27080.jpg */; };
+		48FA3FCF1EFACF300017790F /* apple_logo_40k_090318web.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FA3FCE1EFACF300017790F /* apple_logo_40k_090318web.png */; };
+		48FA3FD81EFB05F90017790F /* MapTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FA3FD71EFB05F90017790F /* MapTVC.m */; };
 		68B888D41EF826C90000CF45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B888D31EF826C90000CF45 /* main.m */; };
 		68B888D71EF826C90000CF45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B888D61EF826C90000CF45 /* AppDelegate.m */; };
-		68B888DA1EF826C90000CF45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B888D91EF826C90000CF45 /* ViewController.m */; };
 		68B888DD1EF826C90000CF45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B888DB1EF826C90000CF45 /* Main.storyboard */; };
 		68B888E01EF826C90000CF45 /* NewsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68B888DE1EF826C90000CF45 /* NewsApp.xcdatamodeld */; };
 		68B888E21EF826C90000CF45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B888E11EF826C90000CF45 /* Assets.xcassets */; };
@@ -25,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29BDDB7C10B7014443EEE3FF /* Pods-NewsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsApp/Pods-NewsApp.release.xcconfig"; sourceTree = "<group>"; };
+		32CF43DBFBBC1AF78CCE8EE2 /* Pods-NewsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsApp/Pods-NewsApp.debug.xcconfig"; sourceTree = "<group>"; };
 		48FA3FA01EF8320F0017790F /* TopStoriesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopStoriesVC.h; sourceTree = "<group>"; };
 		48FA3FA11EF8320F0017790F /* TopStoriesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopStoriesVC.m; sourceTree = "<group>"; };
 		48FA3FA31EF832760017790F /* TopStoriesDetailVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopStoriesDetailVc.h; sourceTree = "<group>"; };
@@ -41,17 +50,25 @@
 		48FA3FB31EF835320017790F /* CategoriesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesVC.m; sourceTree = "<group>"; };
 		48FA3FB81EF836200017790F /* CategoriesDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesDetailVC.h; sourceTree = "<group>"; };
 		48FA3FB91EF836200017790F /* CategoriesDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesDetailVC.m; sourceTree = "<group>"; };
+		48FA3FBC1EFABE8E0017790F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		48FA3FBE1EFABEA90017790F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		48FA3FC01EFAC0680017790F /* MapAnnotations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotations.h; sourceTree = "<group>"; };
+		48FA3FC11EFAC0680017790F /* MapAnnotations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotations.m; sourceTree = "<group>"; };
+		48FA3FCA1EFACE9F0017790F /* B6DytOLCUAAjquD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B6DytOLCUAAjquD.png; sourceTree = "<group>"; };
+		48FA3FCB1EFACE9F0017790F /* white-house_318-27080.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "white-house_318-27080.jpg"; sourceTree = "<group>"; };
+		48FA3FCE1EFACF300017790F /* apple_logo_40k_090318web.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple_logo_40k_090318web.png; sourceTree = "<group>"; };
+		48FA3FD61EFB05F90017790F /* MapTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapTVC.h; sourceTree = "<group>"; };
+		48FA3FD71EFB05F90017790F /* MapTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapTVC.m; sourceTree = "<group>"; };
 		68B888CF1EF826C90000CF45 /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B888D31EF826C90000CF45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		68B888D51EF826C90000CF45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		68B888D61EF826C90000CF45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		68B888D81EF826C90000CF45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		68B888D91EF826C90000CF45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		68B888DC1EF826C90000CF45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68B888DF1EF826C90000CF45 /* NewsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NewsApp.xcdatamodel; sourceTree = "<group>"; };
 		68B888E11EF826C90000CF45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68B888E41EF826C90000CF45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68B888E61EF826C90000CF45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFEBB0B105444DFCCA17DAC6 /* libPods-NewsApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewsApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,17 +76,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48FA3FBF1EFABEA90017790F /* CoreLocation.framework in Frameworks */,
+				48FA3FBD1EFABE8E0017790F /* MapKit.framework in Frameworks */,
+				2074C614FD3233161F8720D1 /* libPods-NewsApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48FA3FBB1EFABE8E0017790F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48FA3FBE1EFABEA90017790F /* CoreLocation.framework */,
+				48FA3FBC1EFABE8E0017790F /* MapKit.framework */,
+				AFEBB0B105444DFCCA17DAC6 /* libPods-NewsApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48FA3FC31EFACCAE0017790F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				48FA3FCE1EFACF300017790F /* apple_logo_40k_090318web.png */,
+				48FA3FCA1EFACE9F0017790F /* B6DytOLCUAAjquD.png */,
+				48FA3FCB1EFACE9F0017790F /* white-house_318-27080.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		53EF03B55E1011A3FEB07293 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32CF43DBFBBC1AF78CCE8EE2 /* Pods-NewsApp.debug.xcconfig */,
+				29BDDB7C10B7014443EEE3FF /* Pods-NewsApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		68B888C61EF826C90000CF45 = {
 			isa = PBXGroup;
 			children = (
 				68B888D11EF826C90000CF45 /* NewsApp */,
 				68B888D01EF826C90000CF45 /* Products */,
+				48FA3FBB1EFABE8E0017790F /* Frameworks */,
+				53EF03B55E1011A3FEB07293 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,8 +137,6 @@
 			children = (
 				68B888D51EF826C90000CF45 /* AppDelegate.h */,
 				68B888D61EF826C90000CF45 /* AppDelegate.m */,
-				68B888D81EF826C90000CF45 /* ViewController.h */,
-				68B888D91EF826C90000CF45 /* ViewController.m */,
 				68B888DB1EF826C90000CF45 /* Main.storyboard */,
 				68B888E11EF826C90000CF45 /* Assets.xcassets */,
 				68B888E31EF826C90000CF45 /* LaunchScreen.storyboard */,
@@ -110,6 +159,11 @@
 				48FA3FB31EF835320017790F /* CategoriesVC.m */,
 				48FA3FB81EF836200017790F /* CategoriesDetailVC.h */,
 				48FA3FB91EF836200017790F /* CategoriesDetailVC.m */,
+				48FA3FC01EFAC0680017790F /* MapAnnotations.h */,
+				48FA3FC11EFAC0680017790F /* MapAnnotations.m */,
+				48FA3FD61EFB05F90017790F /* MapTVC.h */,
+				48FA3FD71EFB05F90017790F /* MapTVC.m */,
+				48FA3FC31EFACCAE0017790F /* images */,
 			);
 			path = NewsApp;
 			sourceTree = "<group>";
@@ -129,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68B888E91EF826C90000CF45 /* Build configuration list for PBXNativeTarget "NewsApp" */;
 			buildPhases = (
+				007F04BC4F7462F895DF976D /* [CP] Check Pods Manifest.lock */,
 				68B888CB1EF826C90000CF45 /* Sources */,
 				68B888CC1EF826C90000CF45 /* Frameworks */,
 				68B888CD1EF826C90000CF45 /* Resources */,
+				86377818DA16DD118576844F /* [CP] Embed Pods Frameworks */,
+				69FA1C295AB3B078E4C98FAD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -154,6 +211,11 @@
 					68B888CE1EF826C90000CF45 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -183,10 +245,61 @@
 				68B888E51EF826C90000CF45 /* LaunchScreen.storyboard in Resources */,
 				68B888E21EF826C90000CF45 /* Assets.xcassets in Resources */,
 				68B888DD1EF826C90000CF45 /* Main.storyboard in Resources */,
+				48FA3FCD1EFACE9F0017790F /* white-house_318-27080.jpg in Resources */,
+				48FA3FCC1EFACE9F0017790F /* B6DytOLCUAAjquD.png in Resources */,
+				48FA3FCF1EFACF300017790F /* apple_logo_40k_090318web.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		007F04BC4F7462F895DF976D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		69FA1C295AB3B078E4C98FAD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsApp/Pods-NewsApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86377818DA16DD118576844F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsApp/Pods-NewsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		68B888CB1EF826C90000CF45 /* Sources */ = {
@@ -195,7 +308,6 @@
 			files = (
 				48FA3FA21EF8320F0017790F /* TopStoriesVC.m in Sources */,
 				48FA3FBA1EF836200017790F /* CategoriesDetailVC.m in Sources */,
-				68B888DA1EF826C90000CF45 /* ViewController.m in Sources */,
 				68B888D71EF826C90000CF45 /* AppDelegate.m in Sources */,
 				48FA3FA51EF832760017790F /* TopStoriesDetailVc.m in Sources */,
 				48FA3FB11EF834E70017790F /* MapKitVC.m in Sources */,
@@ -205,6 +317,8 @@
 				48FA3FAE1EF8345D0017790F /* FavoritesDetailVC.m in Sources */,
 				68B888D41EF826C90000CF45 /* main.m in Sources */,
 				48FA3FB41EF835320017790F /* CategoriesVC.m in Sources */,
+				48FA3FC21EFAC0680017790F /* MapAnnotations.m in Sources */,
+				48FA3FD81EFB05F90017790F /* MapTVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +434,7 @@
 		};
 		68B888EA1EF826C90000CF45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32CF43DBFBBC1AF78CCE8EE2 /* Pods-NewsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NewsApp/Info.plist;
@@ -331,6 +446,7 @@
 		};
 		68B888EB1EF826C90000CF45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29BDDB7C10B7014443EEE3FF /* Pods-NewsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NewsApp/Info.plist;
